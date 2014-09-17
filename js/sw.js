@@ -1,0 +1,1 @@
+alert("I wanna be a ServiceWorker when I grow up!");
