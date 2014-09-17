@@ -1,1 +1,5 @@
-alert("I wanna be a ServiceWorker when I grow up!");
+this.addEventListener('fetch', function(event) {
+	event.respondWith(
+		new Response('This came from the service worker!')
+	);
+});
