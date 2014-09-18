@@ -1,4 +1,4 @@
-if ( 'serviceWorker' in navigator ) {
+if ('serviceWorker' in navigator) {
 	navigator.serviceWorker.register('/js/sw.js', {
 		scope: '/serviceworker/'
 	}).then(function(sw) {
