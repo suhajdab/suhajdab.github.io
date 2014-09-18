@@ -8,8 +8,8 @@ this.addEventListener('activate', function(event) {
 
 this.addEventListener('fetch', function(event) {
 	console.log(event);
-/*	event.respondWith(
+	event.respondWith(
 		new Response('This came from the service worker!')
 	);
-*/
+
 });
